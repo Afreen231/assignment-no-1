@@ -1,3 +1,278 @@
+body,
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+/*section-1 starts from here*/
+/* The image */
+.image {
+    background-image: url(images/donation11.jpg);
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+}
+
+.image-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/*section-1 ends here*/
+
+/*section-2 starts here*/
+.donation {
+    text-align: center;
+}
+
+.font {
+    font-size: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+
+.flex-container>div {
+    background-color: lightgrey;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+#donate {
+    border: 2px solid tomato;
+    border-image-slice: 1;
+    background-color: lightpink;
+    color: red;
+
+}
+
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin-top: 5%;
+    margin-left: 25%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    text-align: center;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: crimson;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 40%;
+}
+
+input[type=submit]:hover {
+    background-color: tomato;
+}
+
+/*start of section 3 here*/
+.heading {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.parent {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.all-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px grey;
+}
+
+.photo img {
+    width: 20%;
+}
+
+.photo {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.second-section {
+    padding: 10px;
+}
+
+.description {
+    text-align: left;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.peach {
+    background-color: peachpuff;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+/* end of section 3 here*/
+
+
+/*start of section 4 here*/
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 80%;
+    height: 400px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.half-width img {
+    width: 450px;
+    height: 350px;
+    margin-left: 10%;
+
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 12%;
+
+}
+
+.uppercase {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.third-half {
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+
+.third-half img {
+    width: 450px;
+    height: 350px;
+    margin-left: 30%;
+}
+
+/*end of section 4 here*/
+
+
+/*start of section 5 here*/
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.form-box {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 15px whitesmoke -10px -10px 15px blue;
+}
+
+.form-box input {
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: lightgray;
+}
+
+.form-box button {
+    color: red;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: peachpuff;
+    cursor: pointer;
+}
+
+.form-box button :hover {
+    background: tomato;
+}
+
+/*start footer here*/
+.footer-content {
+    margin-top: 50px;
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: white;
+    color: white;
+}
+
+.classic-fonts {
+    font-style: italic;
+    font-size: 30px;
+    color: brown;
+}
+
+/*end footer here*/
